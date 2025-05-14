@@ -9,19 +9,41 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mantine/core": "^8.0.0",
+    "@mantine/dates": "^8.0.0",
+    "@mantine/dropzone": "^8.0.0",
+    "@mantine/form": "^8.0.0",
+    "@mantine/hooks": "^8.0.0",
+    "@mantine/modals": "^8.0.0",
+    "@mantine/notifications": "^8.0.0",
+    "bcryptjs": "^3.0.2",
+    "chroma-js": "^3.1.2",
+    "class-validator": "^0.14.2",
+    "dayjs": "^1.11.13",
+    "jsonwebtoken": "^9.0.2",
+    "next": "15.3.2",
+    "next-auth": "^4.24.11",
+    "pg": "^8.16.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.2"
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.23"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/chroma-js": "^3.1.1",
+    "@types/jsonwebtoken": "^9.0.9",
     "@types/node": "^20",
+    "@types/pg": "^8.15.1",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8.5.3",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
